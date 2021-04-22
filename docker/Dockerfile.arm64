@@ -1,0 +1,9 @@
+FROM dronehippie/base:arm64
+
+LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
+  org.opencontainers.image.title="Drone S3" \
+  org.opencontainers.image.vendor="Webhippie" \
+  org.opencontainers.image.documentation="https://dronehippie.github.io/s3/"
+
+ENTRYPOINT ["/bin/drone-s3"]
+ADD bin/drone-s3 /bin/

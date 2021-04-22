@@ -1,0 +1,6 @@
+title: s3
+description: Drone plugin provided by Webhippie
+baseurl: /s3
+
+email: mail@webhippie.de
+theme: jekyll-theme-cayman
